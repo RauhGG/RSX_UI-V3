@@ -1,0 +1,234 @@
+* {
+    user-select: none;
+    font-family: 'Roboto';
+}
+
+.hud {
+    display: flex;
+    font-family: sans-serif;
+    max-width: 2.3vw;
+    margin: .26vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: .4vw .8vw .4vw .4vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+.txt {
+    font-size: .7vw;
+    text-indent: .5vw;
+    text-align: right;
+}
+
+#container {
+    position: fixed;
+    left: 1vw;
+    bottom: 1.7vw;
+}
+
+.calles {
+    position: absolute;
+    bottom: .5vw;
+    left: 1.5vw;
+    text-align: center;
+    color: white;
+    padding: .2vw;
+    max-width: 7.9vw;
+    min-width: 13.8vw;
+    background-color: rgba(10, 10, 10, 0.765);
+    border-bottom-left-radius: .4vw;
+    border-bottom-right-radius: .4vw;
+}
+
+.sbelt {
+    position: absolute;
+    bottom: 10.9vw;
+    left: 2.3vw;
+    padding-top: .5vw;
+    font-size: 1.1vw;
+    color: white;
+    padding: .6vw;
+    padding-left: .87vw;
+    padding-right: .87vw;
+    transform: scale(.7);
+    border-bottom: rgb(0, 0, 0) solid .2vw;
+    border-radius: 99%;
+    background-color: rgb(0, 0, 0, 0.8);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+}
+
+.temp {
+    position: absolute;
+    bottom: 10.9vw;
+    left: 4.7vw;
+    font-size: 1.1vw;
+    color: white;
+    padding-top: .5vw;
+    padding: .6vw;
+    padding-left: .9vw;
+    padding-right: .9vw;
+    transform: scale(.7);
+    border-radius: 99%;
+    border-bottom: rgb(0, 0, 0) solid .2vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+    -ms-transform: scale(.7);
+    -o-transform: scale(.7);
+}
+
+.kmh {
+    position: absolute;
+    bottom: 11.2vw;
+    left: 7.2vw;
+    font-family: sans-serif;
+    font-size: .8vw;
+    width: 2vw;
+    height: 1.9vw;
+    text-align: center;
+    line-height: 2.2vw;
+    transform: scale(.9);
+    border-radius: 50%;
+    border-bottom: rgb(0, 0, 0) solid .2vw;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+.gas {
+    position: absolute;
+    bottom: 11vw;
+    left: 9vw;
+    font-size: 1vw;
+    color: white;
+    width: 5vw;
+    height: 2.29vw;
+    border-bottom: rgb(0, 0, 0) solid .2vw;
+    transform: scale(.76);
+    border-radius: 3vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    -webkit-transform: scale(.76);
+    -moz-transform: scale(.76);
+    -ms-transform: scale(.76);
+    -o-transform: scale(.76);
+}
+
+.gas i {
+    position: absolute;
+    bottom: .6vw;
+    left: .6vw;
+}
+
+.gas-lvl {
+    position: absolute;
+    top: .6vw;
+    left: 2.2vw;
+    min-width: 30vw;
+}
+
+.maicrofon {
+    position: fixed;
+    right: 2vw;
+    bottom: 3vw;
+    background-color: rgb(0, 0, 0, 0.9);
+    height: 2vw;
+    width: 2vw;
+    border-radius: 0.2vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    transition: .2s linear all;
+    -webkit-transition: .2s linear all;
+    -moz-transition: .2s linear all;
+    -ms-transition: .2s linear all;
+    -o-transition: .2s linear all;
+}
+
+#mic {
+    filter: invert(1);
+    transform: scale(.6);
+    transition: .2s linear all;
+    -webkit-transform: scale(.6);
+    -moz-transform: scale(.6);
+    -ms-transform: scale(.6);
+    -o-transform: scale(.6);
+}
+
+.rangovoz {
+    position: fixed;
+    right: 4.3vw;
+    bottom: 3vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 2vw;
+    width: fit-content;
+    border-radius: 0.2vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    border: solid;
+    border-color: white;
+    border-width: 0.1vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+    margin-right: 0.3vw;
+    margin-left: auto;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.radio {
+    position: fixed;
+    right: 2vw;
+    bottom: 3vw;
+    background-color: rgb(0, 0, 0, 0.9);
+    height: 2vw;
+    width: 2vw;
+    border-radius: 0.2vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    transition: .2s linear all;
+}
+
+#radio {
+    filter: invert(1);
+    height: 60%;
+    width: 100%;
+}
+
+.freq {
+    position: fixed;
+    right: 4.3vw;
+    bottom: 3vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 2vw;
+    width: fit-content;
+    border-radius: 0.2vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 0.4vw;
+    border: solid;
+    border-color: white;
+    border-width: 0.1vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+    margin-right: 0.3vw;
+    margin-left: auto;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
